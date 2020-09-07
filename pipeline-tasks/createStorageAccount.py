@@ -1,3 +1,4 @@
+import deploymentFunctions as depfunc 
 
 storageAccountName = 'tfbkendabc123x'  
 storageContainerName = 'tfcontainer'  
