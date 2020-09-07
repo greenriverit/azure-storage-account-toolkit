@@ -14,6 +14,6 @@ resourceGroupLocation = 'westus'
 
 #Then delete the storage account
 #https://docs.microsoft.com/en-us/azure/storage/common/storage-account-create?tabs=azure-cli
-deleteStorageAccountCommand = "az storage account delete --name " + storageAccountName + " --resource-group " + resourceGroupName  
+deleteStorageAccountCommand = "az storage account delete --name " + storageAccountName + " --resource-group " + resourceGroupName + " --yes "  
 print("deleteStorageAccountCommand is: ", deleteStorageAccountCommand)
 depfunc.runShellCommand(deleteStorageAccountCommand)  
